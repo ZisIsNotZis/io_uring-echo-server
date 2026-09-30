@@ -1,0 +1,17 @@
+# Build artifacts
+srv
+cli
+io_uring_server
+io_uring_zero_server
+io_uring_zero_client
+*.o
+*.a
+
+# Cores / crashes
+core
+core.*
+
+# Local packaging / scratch
+*.deb
+__pycache__/
+*.pyc
