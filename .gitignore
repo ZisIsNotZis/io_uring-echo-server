@@ -15,3 +15,7 @@ core.*
 *.deb
 __pycache__/
 *.pyc
+.pi/
+.env
+.env.*
+!.env.example
